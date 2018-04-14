@@ -158,7 +158,7 @@ describe('/api/signin', () => {
             .then(res => {
                 expect(res.status).toBe(200);
                 expect(res.body.token).toBeDefined();
-                expect(jwt.verify(res.body.token, 'SECRET').id).toBe(userId);
+                expect(jwt.verify(res.body.token, process.env.SECRET).id).toBe(userId);
                 done();
             });
     });
