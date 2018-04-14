@@ -1,8 +1,8 @@
 # Testing Express/Mongoose with Basic and Bearer Authentication
 
---
 
-## Uses Mockgoose and SuperTest so can run without DB connection or running server
+
+## Uses [Mockgoose](https://www.npmjs.com/package/mockgoose) and [SuperTest](https://www.npmjs.com/package/supertest) so can run without DB connection or running server
 
 *Steps to Run*
 
@@ -14,4 +14,4 @@
 
 * NOTE: Neither the Express app nor MongoDB need to be running thanks to Mockgoose and SuperTest
 
-Bonus: A wallaby.js file is included in case you use that awesomeness
+Bonus: A wallaby.js file is included in case you use the awesomeness that is [Wallaby](https://wallabyjs.com/)
