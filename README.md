@@ -8,8 +8,8 @@
 
 * npm install
 * create .env file
-	* set MONGODB_URI to something like mongodb://localhost/test
-	* set SECRET to whatever you like
+	* MONGODB_URI=mongodb://localhost/whatever
+	* SECRET=whatever
 * npm test
 
 * NOTE: Neither the Express app nor MongoDB need to be running thanks to Mockgoose and SuperTest
