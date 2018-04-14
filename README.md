@@ -10,7 +10,8 @@
 * create .env file
 	* set MONGODB_URI to something like mongodb://localhost/test
 	* set SECRET to whatever you like
+* npm test
+
 * NOTE: Neither the Express app nor MongoDB need to be running thanks to Mockgoose and SuperTest
-* Run Jest
 
 Bonus: A wallaby.js file is included in case you use that awesomeness
